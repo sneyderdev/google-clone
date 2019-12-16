@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google</title>
+    <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid_container">
+      <!-- Header start -->
+      <header class="main_header">
+        <!-- Mobile/Tablet Navbar -->
+        <nav class="mobile_nav">
+          <ul class="mobile_menu">
+            <li class="mobile_menu-item">
+              <div class="burger_button" id="burger_btn">
+                <svg style="fill: #757575; width: 24px; height: 24px">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg>
+              </div>
+            </li>
+            <li class="mobile_menu-item">
+              <a href="#" class="mobile-item-link active">ALL</a>
+            </li>
+            <li class="mobile_menu-item">
+              <a href="#" class="mobile-item-link">IMAGES</a>
+            </li>
+            <li class="mobile_menu-item">
+              <div class="google_assistent">
+                <svg height="24px" width="24px" viewBox="0 0 192 192">
+                  <g>
+                    <circle cx="172" cy="60" fill="#34A853" r="12"></circle>
+                    <circle cx="136" cy="88" fill="#EA4335" r="24"></circle>
+                    <circle cx="136" cy="148" fill="#FBBC05" r="28"></circle>
+                    <circle cx="56" cy="64" fill="#4285F4" r="48"></circle>
+                  </g>
+                </svg>
+              </div>
+            </li>
+            <li class="mobile_menu-item">
+              <figure class="google_apps">
+                <img src="images/google_apps.png" alt="Google Apps" class="google_apps-img">
+              </figure>
+            </li>
+            <li class="mobile_menu-item">
+              <figure class="user">
+                <img src="images/user.jpg" alt="Usuario" class="user-img">
+              </figure>
+            </li>
+          </ul>
+        </nav>
+        <!-- Desktop Navbar -->
+        <nav class="desktop_nav">
+          <ul class="desktop_menu">
+            <li class="desktop_menu-item">
+              <a href="#" class="desktop-item-link">Gmail</a>
+            </li>
+            <li class="desktop_menu-item">
+              <a href="#" class="desktop-item-link">Images</a>
+            </li>
+            <li class="desktop_menu-item">
+              <figure class="google_apps">
+                <img src="images/google_apps.png" alt="Google Apps" class="google_apps-img">
+              </figure>
+            </li>
+            <li class="desktop_menu-item">
+              <figure class="user">
+                <img src="images/user.jpg" alt="Usuario" class="user-img">
+              </figure>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header end -->
+
+      <!-- Main Section start -->
+      <main class="main_section">
+        <section class="logo"> <!-- Logo -->
+          <figure class="google">
+            <img src="images/logo.png" alt="Google logo" class="google-img">
+          </figure>
+        </section>
+        <section class="search">
+          <!-- Mobile/Tablet Search -->
+          <div class="mobile_search">
+            <div class="search_bar">
+              <input type="text" name="search" id="search">
+              <svg width="24" height="24">
+                <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"></path>
+              </svg>
+            </div>
+            <div class="search_icon">
+              <svg>
+                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+              </svg>
+            </div>
+          </div>
+          <!-- Desktop Search -->
+          <div class="desktop_search">
+            <div class="search_icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+              </svg>
+            </div>
+            <input type="text" name="search" id="search">
+            <div class="voice_icon"></div>
+          </div>
+        </section>
+        <section class="buttons"> <!-- Buttons -->
+          <button class="desktop_button">Google Search</button>
+          <button class="desktop_button">I'm Feeling Lucky</button>
+        </section>
+      </main>
+      <!-- Main Section end -->
+
+      <!-- Footer start -->
+      <footer class="footer">
+        <div class="country">Colombia</div>
+        <div class="main_footer">
+          <div class="footer_top">
+            <a href="#" class="footer-link">Settings</a>
+            <a href="#" class="footer-link">Privacy</a>
+            <a href="#" class="footer-link">Terms</a>
+          </div>
+          <div class="footer_bottom">
+            <a href="#" class="footer-link">Advertising</a>
+            <a href="#" class="footer-link">Business</a>
+            <a href="#" class="footer-link">About</a>
+            <a href="#" class="footer-link-desktop">How Search works</a>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+
+      <!-- Sidebar start -->
+      <div class="overlay" id="overlay"></div> <!-- Overlay -->
+      <aside class="mobile_sidebar" id="sidebar">
+        <ul class="sidebar_menu">
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="sidebar-logo">
+                <img src="images/logo.png" alt="" class="logo-google">
+              </figure>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/home_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Home</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/search_activity_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Search activity</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/save_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Collections</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/manage_searches_icon.png" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Offline searches</span>
+            </a>
+          </li>
+          <hr class="line"> <!-- Middle Line -->
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/settings_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Settings</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/privacy_advisor_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Your data in Search</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/how_search_works_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">How Search works</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/help_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Help</span>
+            </a>
+          </li>
+          <li class="sidebar_menu-item">
+            <a href="#" class="sidebar-link">
+              <figure class="link-img">
+                <img src="images/mobile_sidebar_icons/feedback_icon.svg" alt="Sidebar Icon">
+              </figure>
+              <span class="sidebar-text">Send feedback</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- Sidebar end -->
+    </div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

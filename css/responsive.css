@@ -133,7 +133,7 @@
     justify-content: center;
     column-gap: 10px;
   }
-  
+
   .desktop_button {
     font-size: 14px;
     height: 36px;
@@ -177,7 +177,7 @@
     display: grid;
     grid-template: 1fr / repeat(3, auto);
   }
-  
+
   .footer_top .footer-link:nth-child(1) { /* SETTINGS POSITION */
     grid-area: 1 / 3;
   }
